@@ -44,4 +44,6 @@ observation_id filter  productFilename
 >>> s3_lines = fetch.make_curl_script(prod, script_name=None, s3_sync=True)
 >>> print(s3_lines[0])
 aws s3 sync --request-payer requester --exclude="*.*" --include="*raw.fits" s3://stpubdata/hst/public/ib6o/ib6o23rsq/ .//
-``` 
+```
+
+### fix a version porblem of mastquery
